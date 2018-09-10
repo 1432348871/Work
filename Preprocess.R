@@ -1,5 +1,5 @@
 # GEO data preprocess
-#data pre
+#data 
 setwd("/mnt/md0/Work_xulei/data/GEO_series_matrix")
 data<-read.table("TAMs_GPL6947_GSE35449_series_matrix.txt",header=T,sep="\t");#GEO series-matix data/ have been remove the annotation information
 data<-na.omit(data)
